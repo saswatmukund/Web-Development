@@ -1,4 +1,6 @@
 * {
+    padding:0;
+    margin: 0;
     box-sizing: border-box;
 }
 body {
@@ -42,4 +44,28 @@ ul{
 .body-container{
   display: flex;
   justify-content: space-around;
+}
+
+.nav{
+  text-decoration: none;
+  align-items: center;
+  width: 77%;
+  height: 30px;
+}
+
+.btn{
+  border: none;
+  cursor: pointer;
+  width: 200px;
+  font-size: 25px;
+  background: none;
+}
+
+.header{
+  position: relative;
+  padding: 10px 0px 10px 0px;
+}
+
+.logo{
+  padding: 150px 0px 50px 0px;
 }
