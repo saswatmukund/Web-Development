@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-image: url("Background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: cornsilk;
+    background-attachment: fixed;
+  }
+input[type-text], select, textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid rgb(16, 187, 187);
+    border-radius: 4px;
+    resize: vertical;
+}
+label {
+    padding: 12px 12px 12px 12px;
+    display: inline-block;
+}
+ul{
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+  }
+  li{
+    padding: 5px;
+    color: white;
+  }
+.container {
+    border-radius: 5px;
+    background-color: #1edb379f;
+    padding: 20px;
+}
+.col-25 {
+   /* display: flex;
+    justify-content:flex-end; */
+    width: 25%;
+    margin-top: 6px;
+}
+.body-container{
+  display: flex;
+  justify-content: space-around;
+}
