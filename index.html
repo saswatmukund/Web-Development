@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="form.css" />
+  </head>
+  <body>
+    <form>
+      <div class="container">
+        <div>
+            
+        </div>
+        <div>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Contact</a></li>
+              <li><a href="#">Services</a></li>
+            </ul>
+          </div>
+        <h1 style="color:blueviolet;">Register Here</h1>
+        <p style="color:black">Please fill in the details to create an account with us.</p>
+        <hr />
+       <!-- <div class="row"> -->
+         <div class="body-container">
+           <div>
+            <img src="Logo.jpeg" alt="Italian Trulli">
+           </div>
+           <div>
+          <div class="col-25">
+            <label for="email" style="color:midnightblue;"><b>Email</b></label>
+            <input
+              type="text"
+              placeholder="Enter Email"
+              name="email"
+              required
+            />
+          </div>
+          <div class="col-25">
+              <label form="name" style="color:midnightblue;"><b>First name</b></label>
+            <input type="text" placeholder="First" name="fname" required />
+          </div>
+          <div class="col-25">
+            <label form="name" style="color:midnightblue;"><b>Middle name</b></label>
+            <input type="text" placeholder="Middle" name="mname" required />
+          </div>
+          <div class="col-25">
+            <label form="name" style="color:midnightblue;"><b>Last name</b></label>
+            <input type="text" placeholder="Last" name="lname" required />
+          </div>
+          <div class="col-25">
+            <label form="name" style="color:midnightblue;"><b>Organisation</b></label>
+          <input type="text" placeholder="Name of your College" name="fname" required />
+          </div> 
+          <div class="col-25">
+          <label for="pwd" style="color:midnightblue;"><b>Create a Password</b></label>
+          <input
+            type="password"
+            placeholder="Enter Password"
+            name="pwd"
+            required
+          />
+          </div>
+          <div class="col-25">
+          <label for="confirm" style="color:midnightblue;"><b>Confirm Password</b></label>
+          <input
+            type="password"
+            placeholder="Confirm Password"
+            name="confirm"
+            required
+          />
+          </div>
+        <hr />
+        <p style="color:black">
+          By creating an account you agree to our
+          <a href="#">Terms & Privacy</a>.
+        </p>
+        <button type="submit" class="registerbtn">
+          <strong>Register</strong>
+        </button>
+      <div>
+        <p style="color:black">Already have an account? <a href="#">Sign in</a>.</p>
+      </div>
+      </div>
+      </div>
+    </form>
+  </body>
+</html>
